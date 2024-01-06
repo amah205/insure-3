@@ -16,9 +16,9 @@
 </head>
 <body>
   <!--NAV-SECTION-->
-  <nav class="navbar fixed-top navbar-expand-lg bg-light text-dark navbar-light">
+  <nav class="navbar mobile-navbar fixed-top navbar-expand-lg bg-light text-dark navbar-light">
     <div class="container">
-      <div class="navbar-brand fw-bolder h1">
+      <div class="navbar-brand fw-bolder h1 mobile-brand">
         <img src="images/logo.svg">
       </div>
 
@@ -26,24 +26,29 @@
         <span class="navbar-toggler-icon "></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbar">
-        <ul class="navbar-nav ms-auto">
+      <div class="collapse navbar-collapse mobile-div" id="navbar">
+        <ul class="navbar-nav ms-auto mobile-ul ">
           <li class="nav-item">
-            <a href="#" class="nav-link">How Will Work</a>
+            <a href="#home" class="nav-link m">How Will Work</a>
           </li>
 
           <li class="nav-item">
-            <a href="#" class="nav-link">Blog</a>
+            <a href="#showcase" class="nav-link">Blog</a>
           </li>
 
           <li class="nav-item">
-            <a href="#" class="nav-link">Acount</a>
+            <a href="#about" class="nav-link">Account</a>
           </li>
 
           <li class="nav-item">
-            <a href="#" class="nav-link button">View Plans</a>
+            <a href="#" class="nav-link button mobile-btn">View Plans</a>
           </li>
+
         </ul>
+
+        <div class="nav-img">
+          <img src="images/bg-pattern-mobile-nav.svg">
+        </div>
       </div>
     </div>
     
@@ -99,7 +104,7 @@
 
   </section>-->
 
-  <section id="showcase" class="showcase">
+  <section id="home" class="showcase">
     <div class="img-g">
       <img src="images/bg-pattern-intro-right-desktop.svg" class="img-showcase">
     </div>
@@ -147,7 +152,7 @@
 
 
   <!--BLOG-SECTION--->
-  <section id="blog" class="blog p-5 ">
+  <section id="showcase" class="blog p-5 ">
     <img src="images/bg-pattern-intro-left-desktop.svg" class="img-3 ">
     <div class="container mt-5 blog-mobile ">
       <div class="blog-text mobile-col">
@@ -155,7 +160,7 @@
         <h1 class="fw-bold ">We're different</h1>
       </div>
 
-      <div class="row g-4 ">
+      <div class="row g-4">
         <div class="col-md mt-5 mobile-col">
           <div class="icon-1 mb-3 " >
             <i class="bi bi-lightning-fill h5"></i>
@@ -209,7 +214,7 @@
 
 
   <!---footer-->
-  <section id="footer" class=" footer">
+  <section id="about" class=" footer">
       <div class="footer-img">
         <img src="images/bg-pattern-footer-desktop.svg" class="img-5 ">
 
@@ -282,7 +287,7 @@
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">AMAH IFEANYI POSSIBLE</a>.
   </div>
  
   <!---BOOTSTRAP-JS-CDN-->
